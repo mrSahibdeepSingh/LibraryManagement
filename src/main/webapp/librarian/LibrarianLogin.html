@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Librarian Login</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="../cssfiles/Global.css">
+<link rel="stylesheet" href="../cssfiles/Login.css">
+<link rel="stylesheet" href="../cssfiles/bootstrap.min.css"/>
+</head>
+ 
+ 	
+ <div class="navbar navbar-inverse">
+  <div class="container">
+     <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" style="color: white">eLibrary</a>
+    </div>
+
+     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+          <li><a href="../index.html">Admin</a></li>
+        <li><a href="html/Contact.html">Contact Us</a></li>
+       </ul>
+
+    </div>
+  </div>
+</div>
+ 	
+ 
+<body style="background-image: url('../images/wooden-table-with-blurred.jpg'); background-repeat: no-repeat; background-size: cover;">
+
+ 	<div class="admin_container">
+
+			<form method="post" action="../LibrarianLogin">
+		<div class="box">
+			<h3>Librarian Login</h3>
+
+			<input type="text" id="email1" name="email" placeholder="Username" class="email" required="required" autocomplete="none"/> 
+			<input type="password" id="password1" name="password" placeholder="Password" class="password" required="required" />
+
+			<button type="submit" id="submit" class="btn">Login</button>
+		</div>
+	</form>
+	</div>
+	
+
+  <script src="jquery.min.js"></script>
+  <script src="bootstrap.min.js"></script>
+</body>
+</html>
